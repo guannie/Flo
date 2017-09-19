@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E188C611F713FE000A7E317 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E188C601F713FE000A7E317 /* BackgroundView.swift */; };
 		8E2BD4A61F6FF22F0027F475 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2BD4A51F6FF22F0027F475 /* CounterView.swift */; };
+		8E2BD4A81F7023B60027F475 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2BD4A71F7023B60027F475 /* GraphView.swift */; };
 		8E499EDA1F6FC20F00234F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E499ED91F6FC20F00234F8B /* AppDelegate.swift */; };
 		8E499EDC1F6FC20F00234F8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E499EDB1F6FC20F00234F8B /* ViewController.swift */; };
 		8E499EDF1F6FC20F00234F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E499EDD1F6FC20F00234F8B /* Main.storyboard */; };
@@ -17,7 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E188C601F713FE000A7E317 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		8E2BD4A51F6FF22F0027F475 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		8E2BD4A71F7023B60027F475 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		8E499ED61F6FC20F00234F8B /* Flo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E499ED91F6FC20F00234F8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E499EDB1F6FC20F00234F8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,8 +64,10 @@
 			children = (
 				8E499ED91F6FC20F00234F8B /* AppDelegate.swift */,
 				8E499EDB1F6FC20F00234F8B /* ViewController.swift */,
+				8E2BD4A71F7023B60027F475 /* GraphView.swift */,
 				8E499EEB1F6FC34D00234F8B /* PushButton.swift */,
 				8E2BD4A51F6FF22F0027F475 /* CounterView.swift */,
+				8E188C601F713FE000A7E317 /* BackgroundView.swift */,
 				8E499EDD1F6FC20F00234F8B /* Main.storyboard */,
 				8E499EE01F6FC20F00234F8B /* Assets.xcassets */,
 				8E499EE21F6FC20F00234F8B /* LaunchScreen.storyboard */,
@@ -142,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E188C611F713FE000A7E317 /* BackgroundView.swift in Sources */,
+				8E2BD4A81F7023B60027F475 /* GraphView.swift in Sources */,
 				8E499EDC1F6FC20F00234F8B /* ViewController.swift in Sources */,
 				8E499EDA1F6FC20F00234F8B /* AppDelegate.swift in Sources */,
 				8E499EEC1F6FC34D00234F8B /* PushButton.swift in Sources */,
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q578P3U8MM;
 				INFOPLIST_FILE = Flo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdmi.Flo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q578P3U8MM;
 				INFOPLIST_FILE = Flo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdmi.Flo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
